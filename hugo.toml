@@ -1,0 +1,61 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'willdobbies'
+theme = ["hello-friend-ng", "hugo-shortcode-gallery"]
+
+[params]
+    dateform        = "Jan 2, 2006"
+    dateformShort   = "Jan 2"
+    dateformNum     = "2006-01-02"
+    dateformNumTime = "2006-01-02 15:04"
+
+    # Subtitle for home
+    homeSubtitle = "I'm CJ, a programmer + artist from the Bay Area. Check out the links below!"
+
+    # Set disableReadOtherPosts to true in order to hide the links to other posts.
+    disableReadOtherPosts = false
+
+    # Enable sharing buttons, if you like
+    enableSharingButtons = true
+
+    # Show a global language switcher in the navigation bar
+    enableGlobalLanguageMenu = false
+
+    hideTitle= true
+
+    galleryFilterOptions="""
+        [
+            {label: 'All', tags: '.*'}, 
+            {label: 'Commissions', tags: 'commission'}, 
+            {label: 'Fanart', tags: 'fanart'}, 
+            {label: 'Original', tags: 'original'}, 
+            {label: 'Study', tags: 'study'}
+        ]
+    """
+
+    galleryThumbnailHoverEffect = "enlarge"
+    galleryThumbnailResizeOptions="500x500 q50 Lanczos"
+    galleryRandomize=true
+
+    backgroundImage = "background/monument.png"
+
+    [params.portrait]
+        path="me2.jpg"
+
+    [params.logo]
+        logoCursorDisabled= true
+        logoMark = "~"
+        logoText = "willdobbies"
+
+    [[params.social]]
+        name = "github"
+        url = "https://www.github.com/willdobbies"
+    [[params.social]]
+        name = "twitter"
+        url = "https://www.twitter.com/wildobbies"
+    [[params.social]]
+        name = "tumblr"
+        url = "https://www.tumblr.com/willdobbies"
+    [[params.social]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/cjriddle"
