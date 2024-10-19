@@ -35,7 +35,7 @@ theme = ["hello-friend-ng", "hugo-shortcode-gallery"]
 
     galleryThumbnailHoverEffect = "enlarge"
     galleryThumbnailResizeOptions="500x500 q50 Lanczos"
-    galleryRandomize=true
+    galleryRandomize=false
 
     backgroundImage = "background/monument.png"
 
