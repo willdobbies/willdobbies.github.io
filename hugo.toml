@@ -40,7 +40,7 @@ theme = ["hello-friend-ng", "hugo-shortcode-gallery"]
     backgroundImage = "background/monument.png"
 
     [params.portrait]
-        path="me2.jpg"
+        path="me1.jpg"
 
     [params.logo]
         logoCursorDisabled= true
